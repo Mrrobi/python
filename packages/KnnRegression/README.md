@@ -1,7 +1,7 @@
 # KNN Regression Algorithm.
 Anyone of you can use this library to do KNN Regression in Google Colab
 with a all numeric valued dataset.
-[Github Open Source](https://github.com/Mrrobi/python/tree/master/packages/KnnRegression)
+[PyPi Project Link](https://pypi.org/project/KnnRegressionRobGin/)
 
 ## Existing methods
 * KnnRegression(path,TargetAtLast) - It takes two parameter first one is a string of the csv file path and the second one is a boolean to specify, the position of the target coloum it target is at last then the value will be True.Returns a object of KnnClassification class
