@@ -1,7 +1,7 @@
 # KNN Regression Algorithm.
 Anyone of you can use this library to do KNN Regression in Google Colab
 with a all numeric valued dataset.
-[Github Open Source](https://github.com/Mrrobi/python/packages/knnRegression)
+[Github Open Source](https://github.com/Mrrobi/python/tree/master/packages/KnnRegression)
 
 ## Existing methods
 * KnnRegression(path,TargetAtLast) - It takes two parameter first one is a string of the csv file path and the second one is a boolean to specify, the position of the target coloum it target is at last then the value will be True.Returns a object of KnnClassification class
@@ -14,7 +14,7 @@ with a all numeric valued dataset.
 
 ### 1st need to add the library
 ```python
-pip install KnnRegressionRobi
+pip install KnnRegressionRobGin
 ```
 ### 2nd You must need to mount your google drive if you want to load csv from your drive
 ```python
@@ -26,9 +26,9 @@ drive.mount('/content/gdrive')
 
 ### 3rd you need to copy the csv file path for further use
 
-### 4th import KnnRegressionRobi and set the file path and target position
+### 4th import KnnRegressionRobGin and set the file path and target position
 ```python
-import KnnRegressionRobi as KNN
+import KnnRegressionRobGin as KNN
 KNN = KNN.KnnRegression("/content/sample_data/file_name.csv",True) #set path
 ```
 ### 5th load the dataset into a list and split it 
